@@ -23,6 +23,8 @@ include_directories(${OPENSSL_INCLUDE_DIR})
 #AUX_SOURCE_DIRECTORY(./fuerte/src/ SRC)
 #AUX_SOURCE_DIRECTORY(./velocypack/src/ SRC)
 AUX_SOURCE_DIRECTORY(./velocypack/src SRC)
+AUX_SOURCE_DIRECTORY(./velocypack SRC)
+AUX_SOURCE_DIRECTORY(./ SRC)
 
 include_directories(/home/kapili3/arangodb/3rdParty/velocypack/include/)
 include_directories(/home/kapili3/arangodb/3rdParty/fuerte/include/)
